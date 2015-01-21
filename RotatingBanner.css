@@ -1,0 +1,66 @@
+/***************************************************************************
+Modify the values in this CSS page to change how the banner rotator looks
+You may not be able to change some properties, if the master page already 
+has them define though.
+****************************************************************************/
+#bannerWrapper
+{
+	/*Modify the properties of the div that wraps around all banners.*/
+}
+
+.banner
+{
+	/*Modify the properties of the div that wraps around each banner.*/
+	/*position:absolute;*/
+	width: 1200px;
+	height: 200px;
+}
+
+.nonTiledImage
+{
+	/*Modify the properties of the banner div if it is using a non-tiled image*/
+	background-repeat: no-repeat;
+}
+
+.tiledImage
+{
+	/*Modify the properties of the banner div if it is using a tiled image*/
+
+}
+
+.bannerLink
+{
+	/*Modify the properties of the banner hyperlink*/
+	
+}
+
+.linkWrapper
+{
+	/*Modify the properties of div that wraps the banner hyperlink*/
+	display: inline-block; /*this makes the background only as long as the text.*/
+}
+
+.pagesWrapper
+{
+	/*Modify the properties of div that wraps the pages links*/
+	/*display: inline; this makes the background only as long as the text.*/
+	display: inline-block;
+}
+
+.pageNumber
+{
+	/*Modify the properties of span wrapper that goes around the page numbers */
+
+}
+
+.currentPage
+{
+	/*Modify the properties of span wrapper that goes around the current page number */
+	font-weight: bold;
+}
+
+.previousNext
+{
+	/*Modify the properties of span wrapper that goes around the previous and next text */
+
+}
